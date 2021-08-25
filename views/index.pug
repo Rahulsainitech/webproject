@@ -1,0 +1,59 @@
+//- index.pug
+doctype html
+html
+ head 
+  title Geeta Dance Academy 
+  style 
+   include ../static/style.css
+    
+
+ body
+    nav#navbar
+     ul 
+       div#logo
+        img(src="/static/img/card3.png")
+       li #[a(href="/") About] 
+       li #[a(href="/") Services] 
+       li #[a(href="/") Home]
+       li #[a(href="/") Contact Us]
+    section#introsection 
+     div Welcome to Geeta Dance Academy
+     div Eat Sleep Dance Repeat
+    section#mission 
+     h2 Our Mission
+     div.card
+      h3 Believe in perfection
+      div.card-box 
+       div.card-img 
+        img(src="/static/img/4.png")
+       div.card-content
+        p this is best dance academy so come to learn for perfection and go for services
+     div.card
+      h3 Devoted faculty
+      div.card-box 
+       div.card-img 
+        img(src="/static/img/5.png")
+       div.card-content
+        p this is best dance academy so come to learn for perfection and go for services
+     div.card
+      h3 Dance the way you like 
+      div.card-box 
+       div.card-img 
+        img(src="/static/img/3.png")
+       div.card-content
+        p this is best dance academy so come to learn for perfection and go for services
+    section#sponsersection 
+     h2 Our sponser
+     div.sponser 
+      img(src="/static/img/apple.png", alt="image")
+      img(src="/static/img/hp.png", alt="image")
+      img(src="/static/img/skype.png", alt="image")
+      img(src="/static/img/microsoft.png", alt="image")
+    footer#footer 
+     p.foot 
+      | Copyright  &copy;www.GeetaDanceAcademy.com 2027-All right are reserved
+    
+    script 
+      include ../static/index.js
+    
+    

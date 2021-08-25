@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@200&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    height: 31px;
+    align-items: center;
+    margin: 0 8px;
+    filter: invert(1);
+    
+}
+#navbar{
+    background-color: rgba(151, 62, 168, 0.979);
+    padding: 20px 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    
+}
+#navbar li{
+list-style: none;
+
+}
+#navbar li a{
+    text-decoration: none;
+    padding:6px 30px 6px 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+#navbar li a:hover{
+    text-decoration: none;
+    padding:6px 30px 6px 30px;
+    color: black;
+}
+#introsection{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-family: 'Carter One', cursive;
+color: rgb(233, 232, 222);
+height: 400px;
+background: center/cover url('/static/img/bg5.jpg');
+font-size: 45px;
+background-blend-mode: darken;
+}
+#sponsersection{
+    height: 250px;
+    background-color: rgba(223, 142, 240, 0.856);
+    text-align: center;
+    padding: 7px 0px;
+    font-size: 33px;
+    
+}
+.sponser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sponser img{
+    padding: 15px 55px;
+}
+#footer{
+    height: 60px;
+    background-color: rgba(151, 62, 168, 0.979);
+}
+.foot{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 14px;
+}
+.small{
+    font-size:30px ;
+}
+#mission{
+    height: 400px;
+    background-color: rgb(231, 195, 238);
+    text-align: center;
+    padding: 7px 0px;
+    font-size: 33px;
+}
+.card{
+    width: 28%;
+    height: 280px;
+    border: 2px solid black;
+    border-radius: 7px;
+    display: inline-block;
+    margin: 10px 15px;
+}
+.card h3{
+    padding-top: 15px;
+}
+.card-box{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 15px; 
+}
+.card-img {
+    height: 123px;
+    }
+.card-img img{
+height: inherit;
+}
+.mission h3{
+    text-align: center;
+    padding-top: 10px;
+
+}

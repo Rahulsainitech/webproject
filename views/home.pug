@@ -1,0 +1,45 @@
+extends base.pug
+block scripts
+  script(src='/static/index.js')
+
+
+block style 
+  style 
+    include ../static/style.css
+
+
+block content 
+      section#introsection 
+        div Welcome to Geeta Dance Academy
+        div Eat Sleep Dance Repeat
+      section#mission 
+        h2 Our Mission
+        div.card
+          h3 Believe in perfection
+          div.card-box 
+           div.card-img 
+             img(src="/static/img/4.png")
+           div.card-content
+             p this is best dance academy so come to learn for perfection and go for services
+        div.card
+          h3 Devoted faculty
+          div.card-box 
+           div.card-img 
+            img(src="/static/img/5.png")
+           div.card-content
+            p this is best dance academy so come to learn for perfection and go for services
+        div.card
+          h3 Dance the way you like 
+          div.card-box 
+           div.card-img 
+            img(src="/static/img/3.png")
+           div.card-content
+            p this is best dance academy so come to learn for perfection and go for services
+      section#sponsersection 
+        h2 Our sponser
+         div.sponser 
+          img(src="/static/img/apple.png", alt="image")
+          img(src="/static/img/hp.png", alt="image")
+          img(src="/static/img/skype.png", alt="image")
+          img(src="/static/img/microsoft.png", alt="image")
+      
