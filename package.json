@@ -4,8 +4,9 @@
   "description": "this is popular dance academy which you can never seen before it",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
+    
   },
   "author": "rahul saini",
   "license": "ISC",
