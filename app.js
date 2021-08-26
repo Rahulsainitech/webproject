@@ -5,7 +5,7 @@ const fs = require('fs')
 const app=express();
 const bodyparser = require('body-parser');
 var mongoose = require('mongoose');
-app.use(express.static('dance_website/static/img'));
+app.use(express.static('static/img'));
 mongoose.connect('mongodb://localhost:27017/contactDance', {useNewUrlParser: true, useUnifiedTopology: true});
 const port = process.env.PORT || 80;
 
