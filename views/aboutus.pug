@@ -1,12 +1,50 @@
 extends base.pug
 block scripts
-  script(src='/static/index.js')
-
+  script(src='index.js')
+  script(src="https://code.iconify.design/2/2.0.3/iconify.min.js")
+  
+  
 block style 
   style 
     include ../static/style.css
+    link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css')
     include ../static/aboutusstyle.css
 block content 
-    section.aboutus  
+    section.aboutus
+      div.dir_image  
+         img(src="bg2.jpg" alt="dir image")
+
+      div.box1   
+         h2 
+          | Director Message 
+         p.paras 
+           |Geeta Dance Center believes that every student at any age can learn to dance. No matter your age, shape, size, fitness level, health, or learning style, Mosaic can help you learn to enjoy the movement of your body. It is important to us that you have the very best teachers for your dance classes. All of our instructors complete intensive teacher training and student teaching, as well as ongoing advanced dance training. All of our instructors are certified in CPR and have BA or BFA in dance or certificates from varies training programs. Our organization strongly believes in collaboration with other dance genres and professional teachers. We feel that it benefits the entire community when we all work together for the arts and continue evolving the art of  
+            
     section.aboutfaculty
-    section.aboutfaculty 
+       div.box1
+          h2 
+            |Dance Category We Offer
+          p.paras 
+            | Geeta Dance Center is a performing arts center dedicated to celebrating the joy and beauty of dance, through scholarship, education, and creativity. We'd love to have you join our dance family!
+            |Educated and professional staff and coaches that continually train and educate themselves
+            | Inclusive and open to any skill level and age. MDC’s youngest is 2 and our oldest dancers are in their 90s!
+            | We encourage passion and self-expression for better physical and mental health. Moving the body to   the sound of music can transform a life!
+          h3 DANCE CATEGORY
+          ul.dance_type 
+            
+            li Child classes(2.5 to 4 years)  
+            li YOung dance program(4-7 years)
+            li combo classes
+            li hiphop classes
+            li Acro dance classes
+            li Child classes(2.5 to 4 years)
+            li modern /lyrical classes
+            li musical theatre classes
+       div.fac_image  
+         img(src="bg3.jpg")
+    section.aboutacademy
+       
+       h2 
+        | OUR VISION
+       p.paras 
+        |Mosaic Dance Center believes that every student at any age can learn to dance. No matter your age, shape, size, fitness level, health, or learning style, Mosaic can help you learn to enjoy the movement of your body. It is important to us that you have the very best teachers for your dance classes. All of our instructors complete intensive teacher training and student teaching, as well as ongoing advanced dance training. All of our instructors are certified in CPR and have BA or BFA in dance or certificates from varies training programs. Our organization strongly believes in collaboration with other dance genres and professional teachers. We feel that it benefits the entire community when we all work together for the arts and continue evolving the art of dance for futures to come.

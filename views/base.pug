@@ -5,17 +5,27 @@ html
     title This is Geeta Dance Academy
     block scripts
     block style
+
   body
     nav#navbar
       ul 
         div#logo
          img(src="card3.png")
         li #[a(href="/") Home] 
-        li #[a(href="/about") About] 
+        li #[a(href="/about") About]
         li #[a(href="/") Class Info]
         li #[a(href="/contact") Contact Us]
     block content
-    footer#footer 
-     p.foot 
-      |Copyright  &copy;www.GeetaDanceAcademy.com 2027-All right are reserved
-     
+    footer#footer
+     div.footer1
+      p.foot 
+       |Copyright  &copy;www.GeetaDanceAcademy.com 2027-All right are reserved
+     div.footer2 
+       a(href="https://www.youtube.com/results?search_query=geeta+dance+performance")
+         span.iconify(data-icon="entypo-social:youtube")
+       a(href="/")
+         span.iconify(data-icon="entypo-social:linkedin")
+       a(href="/")
+         span.iconify(data-icon="entypo-social:instagram-with-circle")
+       a(href="/")
+         span.iconify(data-icon="entypo-social:facebook")

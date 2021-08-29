@@ -1,6 +1,7 @@
 extends base.pug
 block scripts
   script(src='/static/index.js')
+  script(src="https://code.iconify.design/2/2.0.3/iconify.min.js")
 
 
 block style 
@@ -10,8 +11,9 @@ block style
 
 block content 
       section#introsection 
-        div Welcome to Geeta Dance Academy
-        div Eat Sleep Dance Repeat
+         div.introhead
+           div.intro Welcome to Geeta Dance Academy
+           div.intro Eat Sleep Dance Repeat
       section#mission 
         h2 Our Mission
         div.card
@@ -27,14 +29,14 @@ block content
            div.card-img 
             img(src="5.png")
            div.card-content
-            p this is best dance academy so come to learn for perfection and go for services
+            p All our faculty members fully experts and their students works in bollywood ,hollywood
         div.card
           h3 Dance the way you like 
           div.card-box 
            div.card-img 
             img(src="3.png")
            div.card-content
-            p this is best dance academy so come to learn for perfection and go for services
+            p We provide a broad dance category almost all the bollywood, hollywood etc.
       section#sponsersection 
         h2 Our sponser
          div.sponser 

@@ -32,7 +32,7 @@ justify-content: center;
     
 }
 .box{
-    background: rgba(0,0,0, 0.8)  url('static/img/bg7.jpg');
+    background: rgba(134, 131, 131, 0.64)  url('static/img/bg7.jpg');
     background-size: cover;
     background-blend-mode:darken;
 }

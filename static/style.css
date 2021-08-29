@@ -14,14 +14,25 @@
     
 }
 #navbar{
-    background-color: rgba(151, 62, 168, 0.979);
+    background-color: rgba(128, 45, 139, 0.979);
     padding: 20px 14px;
+    position: sticky;
+    top: 0px;
+    cursor: pointer;
+
 }
+
 #navbar ul{
     display: flex;
     flex-direction: row;
     /* justify-content: center; */
     
+}
+#navbox1 {
+    display: flex;
+    flex-direction: column;
+    height: 15%;
+    width: 9%;
 }
 #navbar li{
 list-style: none;
@@ -45,11 +56,27 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 font-family: 'Carter One', cursive;
-color: rgb(233, 232, 222);
+color: white;
 height: 400px;
 background: center/cover url('/static/img/bg5.jpg');
 font-size: 45px;
 background-blend-mode: darken;
+
+}
+.introhead{
+    width: 50%;
+    height: 25vh;
+    background: rgba(0, 0, 0, 0.433);
+    border-top: 8px solid rgb(121, 4, 199)
+}
+.introhead:hover{
+    background-color: rgba(0, 0, 0, 0.533);
+    cursor: pointer;
+    width: 55%;
+    height: 30vh;
+}
+.intro{
+    text-align: center;
 }
 #sponsersection{
     height: 250px;
@@ -70,11 +97,23 @@ background-blend-mode: darken;
 #footer{
     height: 60px;
     background-color: rgba(151, 62, 168, 0.979);
+    display: flex;
 }
-.foot{
-    text-align: center;
-    font-size: 25px;
-    padding-top: 14px;
+.footer1{
+    width: 50%;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+
+.footer2{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.iconify{
+    margin: 0 8px;
 }
 .small{
     font-size:30px ;
@@ -87,12 +126,18 @@ background-blend-mode: darken;
     font-size: 33px;
 }
 .card{
-    width: 28%;
+    width: 30%;
     height: 280px;
     border: 2px solid black;
     border-radius: 7px;
     display: inline-block;
     margin: 10px 15px;
+}
+.card:hover{
+    background-color: rgba(58, 57, 57, 0.158);
+    width: 31%;
+    height: 283px;
+    box-shadow: 5px 10px #888888;
 }
 .card h3{
     padding-top: 15px;
