@@ -21,6 +21,7 @@ var contactSchema = new mongoose.Schema({
 
 //EXPRESS SPECIFIC STUFF
 app.use('/static',express.static('Static')) // serving static file
+app.use(express.static('static/img'));
 app.use(express.urlencoded())
 
 // PUG SPECIFIC STUFF
